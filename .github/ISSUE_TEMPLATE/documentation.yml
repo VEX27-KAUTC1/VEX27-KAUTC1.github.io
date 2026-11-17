@@ -1,0 +1,17 @@
+name: Documentation task
+description: Request a documentation update or engineering record
+title: "docs: "
+labels: [documentation]
+body:
+  - type: textarea
+    id: scope
+    attributes:
+      label: What needs documenting?
+      description: Include robot, subsystem, and expected outcome.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence and references
+      description: Link approved sources and files.

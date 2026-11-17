@@ -1,0 +1,22 @@
+{
+  "name": "vex27-engineering-hub",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check:links": "node scripts/check-links.mjs",
+    "check:structure": "node scripts/check-structure.mjs",
+    "check:source-links": "node scripts/check-source-links.mjs"
+  },
+  "dependencies": {
+    "@astrojs/starlight": "^0.37.0",
+    "astro": "^5.16.0",
+    "katex": "^0.16.0",
+    "rehype-katex": "^7.0.0",
+    "remark-math": "^6.0.0"
+  },
+  "packageManager": "pnpm@11.25.0"
+}
