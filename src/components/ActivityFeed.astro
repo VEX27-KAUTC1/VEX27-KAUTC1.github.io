@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+const reports = (await getCollection('docs'))
+  .filter((entry) => entry.id.startsWith('team/journal/') && Boolean(entry.data.date))
+  .sort((a, b) => String(b.data.date ?? '').localeCompare(String(a.data.date ?? '')))
+  .slice(0, 6);
+---
+{reports.length ? <ul class="activity-list">{reports.map((entry) => <li><time>{String(entry.data.date ?? 'Date pending')}</time><a href={`${import.meta.env.BASE_URL}${entry.id}/`}>{entry.data.title}</a><div>{String(entry.data.member ?? 'Team member')}</div></li>)}</ul> : <p>No reviewed daily reports yet. The latest activity will appear here when members publish their journals.</p>}

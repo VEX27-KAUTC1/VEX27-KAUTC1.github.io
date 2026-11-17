@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import path from 'node:path';
+const docs = 'src/content/docs';
+const expected = ['index.mdx','team/index.md','team/members/index.md','team/journal/index.md','research/index.md','management/index.md','resources/index.md'];
+const robotPages = ['index','requirements','concepts','mechanical/index','mechanical/drivetrain','mechanical/intake','mechanical/outtake','mechanical/other-mechanisms','electronics','software','autonomous','manufacturing','testing','history','files'];
+for (const robot of ['robot-1','robot-2']) for (const slug of robotPages) expected.push(`robots/${robot}/${slug}.md`);
+for (const file of expected) if (!fs.existsSync(path.join(docs,file))) throw new Error(`Missing documentation: ${file}`);
+const templates = ['daily-report','member-profile','research','subsystem','design-decision','test-report','meeting-notes'];
+for (const name of templates) if (!fs.existsSync(`templates/${name}.md`)) throw new Error(`Missing template: ${name}`);
+console.log(`Structure OK: ${expected.length} required pages, ${templates.length} templates`);
