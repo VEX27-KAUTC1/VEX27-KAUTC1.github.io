@@ -4,8 +4,6 @@ sidebar:
   order: 10
 ---
 
-# Autonomous programming and strategy
-
 Document approved routines, state transitions, sensor assumptions, and validation.
 
 ## Routine index

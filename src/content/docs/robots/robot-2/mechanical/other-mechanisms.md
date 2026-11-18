@@ -4,8 +4,6 @@ sidebar:
   order: 7
 ---
 
-# Other mechanisms
-
 Create sections for each additional mechanism and link its CAD and test results.
 
 

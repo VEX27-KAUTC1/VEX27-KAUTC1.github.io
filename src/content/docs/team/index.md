@@ -4,8 +4,6 @@ sidebar:
   order: 0
 ---
 
-# Team members
-
 Member profiles and dated journals live here. No roster has been supplied, so there are no invented profiles.
 
 ## Add a member

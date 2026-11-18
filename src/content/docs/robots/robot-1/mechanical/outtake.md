@@ -4,8 +4,6 @@ sidebar:
   order: 6
 ---
 
-# Outtake
-
 Describe release geometry, timing, repeatability, and interfaces.
 
 

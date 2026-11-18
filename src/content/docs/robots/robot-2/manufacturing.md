@@ -4,8 +4,6 @@ sidebar:
   order: 11
 ---
 
-# Manufacturing and assembly
-
 Document fabrication processes, tolerances, assembly order, and inspection.
 
 ## Assembly checklist

@@ -4,8 +4,6 @@ sidebar:
   order: 8
 ---
 
-# Electronics and sensors
-
 Document wiring, power budget, controller ports, sensor placement, and safety checks.
 
 ## Interface table

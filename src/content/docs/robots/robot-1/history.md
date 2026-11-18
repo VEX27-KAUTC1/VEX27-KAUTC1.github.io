@@ -4,8 +4,6 @@ sidebar:
   order: 13
 ---
 
-# Design history and revisions
-
 Preserve why the design changed and what evidence supported the revision.
 
 ## Revision log

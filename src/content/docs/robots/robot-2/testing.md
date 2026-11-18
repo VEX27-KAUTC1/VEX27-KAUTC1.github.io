@@ -4,8 +4,6 @@ sidebar:
   order: 12
 ---
 
-# Testing and validation
-
 Link test reports to requirements and record objective observations.
 
 ## Test index

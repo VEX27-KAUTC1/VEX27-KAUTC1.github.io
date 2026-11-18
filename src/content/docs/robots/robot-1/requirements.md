@@ -4,8 +4,6 @@ sidebar:
   order: 1
 ---
 
-# Requirements and strategy
-
 Capture rule references, measurable requirements, constraints, and approved strategy.
 
 ## Traceability

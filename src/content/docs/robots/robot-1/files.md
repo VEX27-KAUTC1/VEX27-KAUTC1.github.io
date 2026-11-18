@@ -4,8 +4,6 @@ sidebar:
   order: 14
 ---
 
-# Files and downloads
-
 Link approved models, drawings, code, images, and exports.
 
 ## File index

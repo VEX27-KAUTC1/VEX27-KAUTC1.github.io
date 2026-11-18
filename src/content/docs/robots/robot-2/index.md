@@ -5,8 +5,6 @@ sidebar:
 description: Engineering documentation for Robot 2
 ---
 
-# Robot 2
-
 Record the robot purpose, competition role, revision, physical envelope, mass, and approved photographs. Add measured values with units and a source.
 
 ## Specifications

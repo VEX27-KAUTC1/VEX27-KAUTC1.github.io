@@ -4,8 +4,6 @@ sidebar:
   order: 9
 ---
 
-# Software and driver control
-
 Document code architecture, controls, configuration, build steps, and firmware revision.
 
 ## Code references

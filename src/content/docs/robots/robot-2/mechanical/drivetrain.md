@@ -4,8 +4,6 @@ sidebar:
   order: 4
 ---
 
-# Drivetrain
-
 Describe wheel layout, drive ratio, motor allocation, loads, and calculations.
 
 
