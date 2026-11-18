@@ -4,8 +4,6 @@ sidebar:
   order: 3
 ---
 
-# Mechanical design and CAD
-
 Start with architecture, interfaces, assembly conventions, and the CAD revision index.
 
 ## Subsystems

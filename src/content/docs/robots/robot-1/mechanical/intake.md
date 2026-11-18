@@ -4,8 +4,6 @@ sidebar:
   order: 5
 ---
 
-# Intake
-
 Describe the intake path, geometry, actuation, and interfaces.
 
 

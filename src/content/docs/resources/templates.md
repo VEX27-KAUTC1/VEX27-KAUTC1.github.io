@@ -4,8 +4,6 @@ sidebar:
   order: 20
 ---
 
-# Document templates
-
 Copy the matching file from the repository `templates/` directory:
 
 - `daily-report.md` — dated member journal
